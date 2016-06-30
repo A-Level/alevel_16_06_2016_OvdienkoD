@@ -1,0 +1,97 @@
+* {
+	background-color: #e5e5e5;
+}
+#header {
+	background-color: #386301;
+	height: 150px;
+	margin-bottom: 10px;
+	border: 2px solid black;
+}
+#left {
+	background-color: #e5e5e5;
+	width: 30%;
+	height: 800px;
+	float: left;
+	border: 2px solid black;
+}
+#right {
+	background-color: white;
+	width: 30%;
+	height: 800px;
+	float: right;
+	border: 2px solid red;
+}
+#footer {
+	background-color: white;
+	height: 150px;
+	border: 2px solid blue;
+	clear:both;
+}
+
+#in_reg {
+	border: 2px solid black;
+	position: relative;
+	left: 5px;
+	top: 40px;
+	width: 230px;
+	display: inline-block;
+	
+}
+
+#in_reg a {
+	text-decoration: none;
+}
+
+#top_list_social {
+	border: 2px solid black;
+	position: relative;
+	top: 40px;
+	left: 500px;
+	width: 590px;
+	display: inline-block;
+}
+
+#top_list_social li {
+	display: inline;
+	margin: 0 5px;
+	
+}
+
+#top_list_social li a {
+	text-decoration: none;
+}
+
+#logo {
+	border: 2px solid black;
+	position: absolute;
+	width: 126px;
+	height: 30px;
+	top: 120px;
+	left: 15px;
+	display: inline-block;
+}
+
+#top_list_main {
+	border: 2px solid black;
+	position: relative;
+	top: 40px;
+	left: 200px;
+	width: 1120px;
+	display: inline-block;
+}
+
+#top_list_main li {
+	display: inline;
+	margin: 0 5px;
+}
+
+#top_list_main li a {
+	text-decoration: none;
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	#top_list_social{
+		left: 50px;
+	}
+}
